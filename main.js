@@ -220,7 +220,7 @@ sortOrderSelect.addEventListener("change" , function() {
 
 // thêm sự kiện click
 const navBar = document.querySelector(".nav-bar");
-const navClose = document.querySelector(".cart-close")
+const navClose = document.querySelector(".cart-closes")
 navBar.addEventListener("click", function(){
     document.querySelector('.tap-list').style.left = "0";
     document.querySelector(".tap-list").style.width = "100%";
